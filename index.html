@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YumeCafé</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>¡BIENVENIDO A NUESTRO BREAK TIME!</h1>
+
+    <div class="container">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="nav-link services">
+                    <span class="material-icons">home</span>
+                    <a href="index.html">Inicio </a>
+                    <ul class="drop-down">
+                        <li>
+                            <span class="material-icons">login</span>
+                            <a href="admin_login.php">Iniciar Sesión Admin (^-^)</a>
+                        </li>
+                        <li>
+                            <span class="material-icons">person</span>
+                            <a href="user_login.php">¡Hola, inicia sesión!</a>
+                        </li>
+                        <li>
+                            <span class="material-icons">person_add</span>
+                            <a href="registro.php">Registrate :3</a>
+                        </li>
+                        <li>
+                            <span class="material-icons">contact_mail</span>
+                            <a href="contacto.php">Contactanos!♥</a>
+                        </li>
+                    </ul>
+                    
+                </li>
+    
+                <li class="nav-link services">
+                    <span class="material-icons">restaurant</span>
+                    <a href="menu.html">¡Deliciosos Platitos!</a>
+                    <span class="material-icons dropdown-icon">arrow_drop_down</span>
+                    <ul class="drop-down">
+                        <li>
+                            <span class="material-icons">menu_book</span>
+                            <a href="menu.html">Nuestro Menú Mágico </a>
+                        </li>
+                      
+                    </ul>
+                </li>
+    
+                <li class="nav-link">
+                    <span class="material-icons">local_cafe</span>
+                    <a href="cafes.html">Cafecitos y Postres Dulces ♥</a>
+                </li>
+    
+                <li class="nav-link">
+                    <span class="material-icons">sports_esports</span>
+                    <a href="juegos.html">¡Juegos y Diversión! uwu</a>
+                </li>
+    
+                <li class="nav-link">
+                    <span class="material-icons">book</span>
+                    <a href="librosp.php">Libros Mágicos ✧</a>
+                </li>
+                
+
+            </ul>
+        </nav>
+    </div>
+
+
+        
+<div class="info-bubbles">
+    <div class="bubble cafe">
+        <a href="cafes.php">
+            <img class="bubble-img" src="imagenes/cofee.jpg" alt="Cafés">
+            <h3>Cafés</h3>
+            <p>Disfruta de nuestra deliciosa selección.</p>
+        </a>
+    </div>
+    
+    <div class="bubble libros">
+        <a href="librosp.php">
+            <img class="bubble-img" src="imagenes/mangas.jpg" alt="Libros">
+            <h3>Libros y Mangas</h3>
+            <p>Descubre historias mágicas.</p>
+        </a>
+    </div>
+   
+    <div class="bubble juegos">
+        <a href="juegos.php">
+            <img class="bubble-img" src="imagenes/games.jpg" alt="Juegos">
+            <h3>Juegos</h3>
+            <p>¡Momentos de diversión asegurados!</p>
+        </a>
+    </div>
+  
+    <div class="bubble sesion">
+        <a href="user_login.php"> 
+            <img class="bubble-img" src="imagenes/sesion1.png" alt="Inicio de Sesión">
+            <h3>Inicio de Sesión</h3>
+            <p>¡Únete y sé parte de la comunidad!</p>
+        </a>
+    </div>
+    
+    <div class="bubble comida">
+        <a href="menu.html">
+            <img class="bubble-img" src="imagenes/food.png" alt="Comida">
+            <h3>Comida</h3>
+            <p>Sabores únicos para ti.</p>
+        </a>
+    </div>
+    <div class="event-list-container">
+        <video autoplay muted loop>
+            <source src="vidio/video.mp4" type="video/mp4">
+        </video>
+        <ul>
+            <li>
+                <h3>Conferencia de Innovación Tecnológica</h3>
+                <p>Fecha: <span class="date">12 de diciembre de 2024</span></p>
+                <p>Hora: <span class="time">10:00 AM - 2:00 PM</span></p>
+                <p>Ubicación: Centro de Convenciones</p>
+            </li>
+            <li>
+                <img src="imagenes/navidad.jpg" alt="Evento destacado" class="event-image">
+                <h3>Fiesta de Fin de Año</h3>
+                <p>Fecha: 31 de diciembre de 2024</p>
+                <a href="contacto.php" class="event-button">Participar</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<section class="events">
+    <h2>¡Eventos Especiales!</h2>
+    <ul>
+        <li>
+            <h3>Noches de Trivia</h3>
+            <p>Todos los viernes a las 7 PM, participa y gana premios.</p>
+        </li>
+        <li>
+            <h3>Descuento Mágico</h3>
+            <p>20% de descuento en cafés los miércoles de 3 a 6 PM.</p>
+        </li>
+    </ul>
+</section>
+
+<section class="location">
+    <h2>¿Dónde estamos?</h2>
+    <p>Visítanos en el corazón de la ciudad, en Av. Sueños 123, Ciudad Mágica. Estamos abiertos todos los días de 8:00 AM a 10:00 PM.</p>
+    <iframe 
+        src="https://www.google.com/maps/embed?pb=..." 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
+</section>
+</body>
+</html>
